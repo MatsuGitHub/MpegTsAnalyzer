@@ -4,7 +4,7 @@ machine:
 
 dependencies:
   override:
-    - git clone github.com/MatsuGitHub/MpegTsAnalyzer
+    - git clone https://github.com/MatsuGitHub/MpegTsAnalyzer.git
     - cd MpegTsAnalyzer
     
 test:
