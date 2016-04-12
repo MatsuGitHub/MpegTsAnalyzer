@@ -1,11 +1,13 @@
 machine:
   timezone:
     Asia/Tokyo
+
 dependencies:
   override:
     - git clone github.com/MatsuGitHub/MpegTsAnalyzer
     - cd MpegTsAnalyzer
+    
 test:
   override:
     - go test ./...
-#    - cd github.com/
+
