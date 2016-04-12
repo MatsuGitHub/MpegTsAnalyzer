@@ -1,7 +1,7 @@
 machine:
   timezone:
     Asia/Tokyo
-dependency:
+dependencies:
   override:
     - git clone github.com/MatsuGitHub/MpegTsAnalyzer
     - cd MpegTsAnalyzer
