@@ -9,5 +9,4 @@ dependencies:
 test:
   override:
     - cd MpegTsAnalyzer
-#    - go test ./...
-
+    - go test -bench . -benchmem
